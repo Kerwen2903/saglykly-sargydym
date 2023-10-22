@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "src": "/videosIn.png",
+    "drugTitle": "ampisilin",
+    "body": "sadd dasd asdasd as dasd as",
+    "simptoms": "bir yeri",
+    "price": "500$",
+    "apteks": [{"id":1, "title":"aptek1"}, {"id":2, "title":"aptek2"}, {"id":3, "title":"aptek3"}]
+  },
+  {
+    "id": 2,
+    "src": "/videosIn.png",
+    "drugTitle": "baralgin",
+    "body": "sadd dasd asdasd as dasd as",
+    "simptoms": "beyleki yeri",
+    "price": "500$",
+    "apteks": [{"id":1, "title":"aptek1"}, {"id":2, "title":"aptek2"}, {"id":3, "title":"aptek3"}]
+  },
+  {
+    "id": 3,
+    "src": "/videosIn.png",
+    "drugTitle": "karbomzapin",
+    "body": "sadd dasd asdasd as dasd as",
+    "simptoms": "4 beyleki yeri",
+    "price": "500$",
+    "apteks": [{"id":1, "title":"aptek1"}, {"id":2, "title":"aptek2"}, {"id":3, "title":"aptek3"}]
+  },
+  {
+    "id": 4,
+    "src": "/videosIn.png",
+    "drugTitle": "ampisilin",
+    "body": "sadd dasd asdasd as dasd as",
+    "simptoms": "3 beyleki yeri",
+    "price": "500$",
+    "apteks": [{"id":1, "title":"aptek1"}, {"id":2, "title":"aptek2"}, {"id":3, "title":"aptek3"}]
+  },
+  {
+    "id": 5,
+    "src": "/videosIn.png",
+    "drugTitle": "ampisilin22",
+    "body": "sadd dasd asdasd as dasd as",
+    "simptoms": "4 beyleki yeri",
+    "price": "500$",
+    "apteks": [{"id":1, "title":"aptek1"}, {"id":2, "title":"aptek2"}, {"id":3, "title":"aptek3"}]
+  },
+  {
+    "id": 6,
+    "src": "/videosIn.png",
+    "drugTitle": "ampisilin",
+    "body": "sadd dasd asdasd as dasd as",
+    "simptoms": "4 beyleki yeri",
+    "price": "500$",
+    "apteks": [{"id":1, "title":"aptek1"}, {"id":2, "title":"aptek2"}, {"id":3, "title":"aptek3"}]
+  },
+  {
+    "id": 7,
+    "src": "/videosIn.png",
+    "drugTitle": "ampisilin",
+    "body": "sadd dasd asdasd as dasd as",
+    "simptoms": "4 beyleki yeri",
+    "price": "500$",
+    "apteks": [{"id":1, "title":"aptek1"}, {"id":2, "title":"aptek1"}, {"id":3, "title":"aptek1"}]
+  }
+]

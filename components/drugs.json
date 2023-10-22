@@ -1,0 +1,9 @@
+[
+  { "id": 1, "src": "/videosIn.png",  "drugTitle": "ampisilin" ,"body":"sadd dasd asdasd as dasd as","simptoms": "bir yeri", "jyns": "gyz", "agyr": "kelle agyry", "yas": "uly yasly" },
+      { "id": 2, "src":"/videosIn.png",  "drugTitle": "baralgin" ,"body":"sadd dasd asdasd as dasd as","simptoms": "beyleki yeri", "jyns": "gyz", "agyr": "kelle agyry", "yas": "kici yasly" },
+      { "id": 3, "src":"/videosIn.png",  "drugTitle": "karbomzapin" ,"body":"sadd dasd asdasd as dasd as","simptoms": "4 beyleki yeri", "jyns": "oglan", "agyr": "kelle agyry", "yas": "uly yasly" },
+      { "id": 4, "src":"/videosIn.png",  "drugTitle": "ampisilin" ,"body":"sadd dasd asdasd as dasd as","simptoms": "3 beyleki yeri", "jyns": "oglan", "agyr": "kelle agyry", "yas": "uly yasly" },
+      { "id": 5, "src":"/videosIn.png",  "drugTitle": "ampisilin22" ,"body":"sadd dasd asdasd as dasd as","simptoms": "4 beyleki yeri", "jyns": "gyz", "agyr": "kelle agyry", "yas": "uly yasly" },
+      { "id": 6, "src":"/videosIn.png",  "drugTitle": "ampisilin" ,"body":"sadd dasd asdasd as dasd as","simptoms": "4 beyleki yeri", "jyns": "gyz", "agyr": "kelle agyry", "yas": "uly yasly" },
+      { "id": 7, "src":"/videosIn.png",  "drugTitle": "ampisilin" ,"body":"sadd dasd asdasd as dasd as","simptoms": "4 beyleki yeri", "jyns": "gyz", "agyr": "kelle agyry", "yas": "uly yasly" }
+]
