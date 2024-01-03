@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "bir yeri",
+    "jyns": "gyz",
+    "agyr": "kelle agyry",
+    "yas": "uly yasly"
+  },
+  {
+    "id": 2,
+    "title": "beyleki yeri",
+    "jyns": "gyz",
+    "agyr": "kelle agyry",
+    "yas": "kici yasly"
+  },
+  {
+    "id": 3,
+    "title": "2 beyleki yeri",
+    "jyns": "oglan",
+    "agyr": "kelle agyry",
+    "yas": "uly yasly"
+  },
+  {
+    "id": 4,
+    "title": "3 beyleki yeri",
+    "jyns": "oglan",
+    "agyr": "kelle agyry",
+    "yas": "uly yasly"
+  },
+  {
+    "id": 5,
+    "title": "4 beyleki yeri",
+    "jyns": "gyz",
+    "agyr": "kelle agyry",
+    "yas": "uly yasly"
+  },
+  {
+    "id": 6,
+    "title": "5 beyleki yeri",
+    "jyns": "gyz",
+    "agyr": "kelle agyry",
+    "yas": "uly yasly"
+  },
+  {
+    "id": 7,
+    "title": "6 beyleki yeri",
+    "jyns": "gyz",
+    "agyr": "kelle agyry",
+    "yas": "uly yasly"
+  }
+
+]

@@ -1,52 +1,92 @@
 [
-  {
-    "id": 1,
-    "title": "bir yeri",
-    "jyns": "gyz",
-    "agyr": "kelle agyry",
-    "yas": "uly yasly"
-  },
-  {
-    "id": 2,
-    "title": "beyleki yeri",
-    "jyns": "gyz",
-    "agyr": "kelle agyry",
-    "yas": "kici yasly"
-  },
-  {
-    "id": 3,
-    "title": "2 beyleki yeri",
-    "jyns": "oglan",
-    "agyr": "kelle agyry",
-    "yas": "uly yasly"
-  },
-  {
-    "id": 4,
-    "title": "3 beyleki yeri",
-    "jyns": "oglan",
-    "agyr": "kelle agyry",
-    "yas": "uly yasly"
-  },
-  {
-    "id": 5,
-    "title": "4 beyleki yeri",
-    "jyns": "gyz",
-    "agyr": "kelle agyry",
-    "yas": "uly yasly"
-  },
-  {
-    "id": 6,
-    "title": "5 beyleki yeri",
-    "jyns": "gyz",
-    "agyr": "kelle agyry",
-    "yas": "uly yasly"
-  },
-  {
-    "id": 7,
-    "title": "6 beyleki yeri",
-    "jyns": "gyz",
-    "agyr": "kelle agyry",
-    "yas": "uly yasly"
-  }
-
+    {
+        "id":1,
+        "symptom":"Kellä urmak ýa-da zerikli agyry",
+        "pain_id":"Kelle agyry"
+    },
+    {
+        "id":2,
+        "symptom":"Ýagtylyga ýa-da sese duýgurlyk",
+        "pain_id":"Kelle agyry"
+    },
+    {
+        "id":3,
+        "symptom":"Bulam-bujarlyk ýa-da gusmak",
+        "pain_id":"Kelle agyry"
+    },
+    {
+        "id":4,
+        "symptom":"Kellä dartgynlyk ýa-da basyş",
+        "pain_id":"Kelle agyry"
+    },
+    {
+        "id":5,
+        "symptom":"Bokurdakdaky agyry ýa-da rahatsyzlyk",
+        "pain_id":"Bokurdak agyry"
+    },
+    {
+        "id":6,
+        "symptom":"Ýuwutmakda kynçylyk",
+        "pain_id":"Bokurdak agyry"
+    },
+    {
+        "id":7,
+        "symptom":"Bokurdagyň gyzarmagy ýa-da çişmegi",
+        "pain_id":"Bokurdak agyry"
+    },
+    {
+        "id":8,
+        "symptom":"Sesiň ýitmegi",
+        "pain_id":"Bokurdak agyry"
+    },
+    {
+        "id":9,
+        "symptom":"Döş agyry ýa-da rahatsyzlyk",
+        "pain_id":"Ýürek agyry"
+    },
+    {
+        "id":10,
+        "symptom":"Dem gysma",
+        "pain_id":"Ýürek agyry"
+    },
+    {
+        "id":11,
+        "symptom":"Bulam-bujarlyk ýa-da gusmak",
+        "pain_id":"Ýürek agyry"
+    },
+    {
+        "id":12,
+        "symptom":"Baş aýlanmagy ýa-da ýeňil bolmak",
+        "pain_id":"Ýürek agyry"
+    },
+    {
+        "id":13,
+        "symptom":"Aýaklaryň çişmegi ýa-da gyzarmagy",
+        "pain_id":"Aýak agyry"
+    },
+    {
+        "id":14,
+        "symptom":"Aýaklaryň çişmegi ýa-da gysylmagy",
+        "pain_id":"Aýak agyry"
+    },
+    {
+        "id":15,
+        "symptom":"Aýaklaryň gowşaklygy ýa-da ýadawlygy",
+        "pain_id":"Aýak agyry"
+    },
+    {
+        "id":16,
+        "symptom":"Arkada ýa-da gapdallarda agyry ýa-da rahatsyzlyk",
+        "pain_id":"Böwrek agyry"
+    },
+    {
+        "id":17,
+        "symptom":"Gyzzyrma ýa-da sowuklama",
+        "pain_id":"Böwrek agyry"
+    },
+    {
+        "id":18,
+        "symptom":"Peşewde gan",
+        "pain_id":"Böwrek agyry"
+    }
 ]

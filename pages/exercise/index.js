@@ -8,13 +8,11 @@ export async function getServerSideProps(context) {
     const agyry = require("../../components/exercise.json");
     const data = agyry.filter(
       (item) =>
-        item.jyns === query.jyns &&
-        item.agyr === query.agyry &&
-        item.yas === query.Yasy
+        item.pain_id.toLowerCase() === query.ache.toLowerCase()
     );
     // const data = agyry.filter(item=> item.agyr === )
 
-    return { props: { data } };
+    return { props: { data:data } };
   } catch (error) {
     return { props: { data: null } };
   }
@@ -25,35 +23,37 @@ const Exercise = ({ data }) => {
 
   const router = useRouter();
 
-  console.log(link);
+  console.log(data,router.query.agyry);
   return (
-    <div className=" w-full flex justify-center">
-      <div className="mt-24 shadow-lg p-6 rounded-md w-[500px] gap-4 flex flex-col">
-        <div>
-          {router.query.Yasy}
-          <label> {router.query.jyns} </label> masgala ucin
-          <label> {router.query.agyry}</label>-da bolup biljek simptomlar
+    <div className=" w-full min-h-screen flex justify-center items-center t-1/2">
+      <div className="mb-12 shadow-lg p-6 rounded-md w-[500px] gap-4 flex flex-col text-center text-lg bg-white text-gray-800">
+        <div className="font-semibold text-2xl ">
+          {router.query.gender.charAt(0).toUpperCase() + router.query.gender.slice(1)} masgala
+          <label> {router.query.age.toLowerCase()} </label>
+          <label> {router.query.ache.toLowerCase()}</label>-da bolup biljek simptomlar
         </div>
-        <div className="grid grid-cols-3">
-          {data.map((agyry) => (
-            <div key={agyry.id}>
+        <div className="flex flex-col text-left text-md font-medium">
+          {data?.map((agyry) => (
+            <div key={agyry?.id} className="flex items-center gap-1 cursor-pointer">
               <input
                 name="simptom"
-                value={agyry.title}
-                id={agyry.id}
+                value={agyry?.symptom}
+                id={agyry?.id}
                 onChange={(e) => setLink(e.target.value)}
                 type="radio"
+                className="cursor-pointer"
               />
-              <label htmlFor={agyry.id}> {agyry.title}</label>
+              <span></span>
+              <label className="text-xl font-medium cursor-pointer" htmlFor={agyry?.id}> {agyry?.symptom}</label>
             </div>
           ))}
         </div>
-        <Link
-          href={`/drugs?simptom=${link}`}
-          className="rounded-md bg-blue-100 border-[1px] border-blue-600 text-blue-700 py-1 px-4 hover:bg-blue-600 hover:text-white text-center transition-all"
+        {link? <Link
+          href={`/disease?symptom=${link}&age=${router.query.age}&ache=${router.query.ache}&gender=${router.query.gender}&symptom_id=${data.filter((el)=> el.symptom === link)[0]?.id}`}
+          className="mt-4 rounded-md bg-white border-[1px] border-green-600 text-green-600 py-2 px-3 hover:bg-green-600 hover:text-white text-center transition-all text-xl"
         >
-          go ---
-        </Link>
+          Indiki
+        </Link>:null}
       </div>
     </div>
   );

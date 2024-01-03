@@ -30,20 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/aptek/apteks_in": [
+    "/drugs/drugsOpen": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/aptek/apteks_in.js"
-    ],
-    "/drugs": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/drugs.js"
-    ],
-    "/exercise": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/exercise.js"
+      "static/chunks/pages/drugs/drugsOpen.js"
     ]
   },
   "ampFirstPages": []

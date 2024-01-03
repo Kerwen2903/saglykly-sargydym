@@ -1,9 +1,47 @@
 [
-  { "id": 1, "src": "/videosIn.png",  "drugTitle": "ampisilin" ,"body":"sadd dasd asdasd as dasd as","simptoms": "bir yeri", "jyns": "gyz", "agyr": "kelle agyry", "yas": "uly yasly" },
-      { "id": 2, "src":"/videosIn.png",  "drugTitle": "baralgin" ,"body":"sadd dasd asdasd as dasd as","simptoms": "beyleki yeri", "jyns": "gyz", "agyr": "kelle agyry", "yas": "kici yasly" },
-      { "id": 3, "src":"/videosIn.png",  "drugTitle": "karbomzapin" ,"body":"sadd dasd asdasd as dasd as","simptoms": "4 beyleki yeri", "jyns": "oglan", "agyr": "kelle agyry", "yas": "uly yasly" },
-      { "id": 4, "src":"/videosIn.png",  "drugTitle": "ampisilin" ,"body":"sadd dasd asdasd as dasd as","simptoms": "3 beyleki yeri", "jyns": "oglan", "agyr": "kelle agyry", "yas": "uly yasly" },
-      { "id": 5, "src":"/videosIn.png",  "drugTitle": "ampisilin22" ,"body":"sadd dasd asdasd as dasd as","simptoms": "4 beyleki yeri", "jyns": "gyz", "agyr": "kelle agyry", "yas": "uly yasly" },
-      { "id": 6, "src":"/videosIn.png",  "drugTitle": "ampisilin" ,"body":"sadd dasd asdasd as dasd as","simptoms": "4 beyleki yeri", "jyns": "gyz", "agyr": "kelle agyry", "yas": "uly yasly" },
-      { "id": 7, "src":"/videosIn.png",  "drugTitle": "ampisilin" ,"body":"sadd dasd asdasd as dasd as","simptoms": "4 beyleki yeri", "jyns": "gyz", "agyr": "kelle agyry", "yas": "uly yasly" }
+    {
+        "id":1,
+        "drug":"Ibuprofen",
+        "src":"/ibuprofen.jpg",
+        "disease_id":[1,2],
+        "body":"Ibuprofen, analjezik we antipiretiki täsiri bolan propion kislotasynyň emele gelenler toparyndan steroid däl, çişmä garşy derman. Köplenç ýaramaz täsirleri ýürek bulanmagy we dökülmegi öz içine alýar, ýöne beýleki NSAID-ler bilen deňeşdirilende, aşgazan-içege gan akma ähtimallygy azdyr.",
+        "age":["Uly adamlar üçin"],
+        "price":100
+    },
+    {
+        "id":2,
+        "drug":"Acetaminophen",
+        "src":"/acetaminophen.jpg",
+        "disease_id":[1,2,3,4,5,6,7,8,9,10,11,12,13,14],
+        "body":"Asetaminofen ýeňil we orta agyry, opiýat bilen bilelikde orta we agyr agyryny bejermek ýa-da gyzgyny azaltmak üçin ulanylýar. Bejergi alýan umumy ýagdaýlara kelle agyry, myşsa agyrylary, artrit, arka agyrylary, diş agyrylary, bokurdak agyrylary, sowuklama, dümew we ysgynsyzlyk degişlidir.",
+        "age":["Ýetginjekler üçin","Uly adamlar üçin"],
+        "price":125
+    },
+    {
+        "id":3,
+        "drug":"Aspirin",
+        "src":"/aspirin.jpg",
+        "disease_id":[1,2,4,3,5,6,7],
+        "body":"Asetilsalisil turşusy analjezik, antipiretiki we çişmä garşy täsirleri berýän derman. Asetilsalisil turşusy trombosit siklooksigenaza bloklaýjydyr.",
+        "age":["Çagalar üçin","Ýetginjekler üçin","Uly adamlar üçin"],
+        "price":150
+    },
+    {
+        "id":4,
+        "drug":"Bokurdak lozenge",
+        "src":"/strepsils.jpg",
+        "disease_id":[8,10,11,12,13,14],
+        "body":"Bokurdak lozenge (üsgülewük damjasy, bokurdak agyry, süýji, kaçu, pastil ýa-da üsgülewük süýji diýlip hem atlandyrylýar) üsgülewigi wagtlaýynça duruzmak, ýaglamak we gaharlandyrýan dokumalary köşeşdirmek üçin agzynda haýal eremegi maksat edinýän kiçijik, adatça dermanlyk tabletdir. bokurdagyň (köplenç bokurdagyň agyrmagy ýa-da bokurdak agyry sebäpli), ähtimal umumy sowukdan ýa-da dümewden bolmagy mümkin.",
+        "age":["Çagalar üçin","Ýetginjekler üçin","Uly adamlar üçin"],
+        "price":175
+    },
+    {
+        "id":5,
+        "drug":"Antibiotikler",
+        "src":"/antibiotics.jpg",
+        "disease_id":[8,10,11,13,14],
+        "body":"Antibiotikler ýokançlyklary bejermek üçin giňden ulanylýan tebigy we sintetiki mikroblara garşy maddalardyr. Antibiotikler mikroorganizmleri öldürip ýa-da köpelmeginiň öňüni alyp biler, bu bolsa tebigy gorag mehanizmleriniň ýok bolmagyna mümkinçilik döreder.",
+        "age":["Uly adamlar üçin"],
+        "price":200
+    }
 ]

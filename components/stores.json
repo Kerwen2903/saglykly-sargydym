@@ -1,0 +1,31 @@
+[
+    {
+        "id":1,
+        "name":"\"Şirin nabat\" Dermanhana",
+        "location":"Aşgabat ş. Gurtly ýaşaýyş jaý toplumy 56-njy jaý",
+        "phone":"(+993 12) 97 95 95",
+        "src":"/sirin-nabat.jpg"
+    },
+    {
+        "id":2,
+        "name":"\"Dostlukly zähmet\" Dermanhana",
+        "location":"15-nji tapgyr \"Rysgally\" söwda dükany",
+        "phone":"(+993 12) 41-55-01",
+        "src":"/dostlukly-zahmet.jpg"
+    },
+    {
+        "id":3,
+        "name":"\"Saglyk\" Dermanhana",
+        "location":"Ашхабад, Мир 4/1",
+        "phone":"+99312471705",
+        "src":"/saglyk-dermanhana.jpg"
+    },
+    {
+        "id":4,
+        "name":"\"Ýowşan\" Dermanhana",
+        "location":"г. Ашгабат, пр-т Махтымкули, 112",
+        "phone":"(+99312) 93-03-03",
+        "src":"/yowsan.jpg"
+    }
+
+]

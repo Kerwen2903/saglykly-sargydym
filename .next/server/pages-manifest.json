@@ -2,8 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/exercise": "pages/exercise.js",
-  "/aptek/apteks_in": "pages/aptek/apteks_in.js",
   "/": "pages/index.js",
-  "/drugs": "pages/drugs.js"
+  "/drugs/drugsOpen": "pages/drugs/drugsOpen.js"
 }

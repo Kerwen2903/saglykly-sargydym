@@ -1,0 +1,92 @@
+[
+    {
+        "id":1,
+        "disease":"Migren",
+        "symptom":"Migren, kelläniň bir tarapynda sarsmak ýa-da urmak bilen häsiýetlendirilýän gaýtalanýan kelle agyrylaryna sebäp bolýan newrologiki ýagdaýdyr. Köplenç ýürek bulanma we gusmak ýaly beýleki alamatlar bilen bilelikde bolýar.",
+        "symptom_id":[1,2,3]
+    },
+    {
+        "id":2,
+        "disease":"Dartgynly kelle agyry",
+        "symptom":"Dartgynly kelle agyry, adatça kelläniň iki tarapyna täsir edýän zerikli, agyryly agyry bilen häsiýetlendirilýän kelle agyrynyň iň köp ýaýran görnüşidir. Köplenç kelläniň töweregine berk zolak ýaly duýulýar we stres, alada ýa-da myşsalaryň dartylmagy sebäpli döräp biler.",
+        "symptom_id":[1,4]
+    },
+    {
+        "id":3,
+        "disease":"Sinusit",
+        "symptom":"Sinusit sinus boşluklarynyň çişmegi ýa-da ýokaşmagy bolup, maňlaýda, gözlerde we ýaňaklarda agyrylara we basyşa sebäp bolup biler. Agyry zerikli ýa-da sarsdyryjy diýip häsiýetlendirip bolar.",
+        "symptom_id":[1,4]
+    },
+    {
+        "id":4,
+        "disease":"Klaster kelle agyry",
+        "symptom":"Klaster kelle agyry toparlarda ýa-da yzygiderlikde ýüze çykýan güýçli kelle agyrydyr, adatça kelläniň bir tarapynda agyr agyry we ýagtylyga we sese duýgurlyk ýaly alamatlar bilen häsiýetlendirilýär.",
+        "symptom_id":[2]
+    },
+    {
+        "id":5,
+        "disease":"Gastroenterit",
+        "symptom":"Aşgazan dümewi diýlip atlandyrylýan gastroenterit wirusly ýa-da bakterial ýokançlykdan döreýär we ýürek bulanma, gusmak, içgeçme we aşgazan agyrylary ýaly alamatlara sebäp bolup biler.",
+        "symptom_id":[3]
+    },
+    {
+        "id":6,
+        "disease":"Iýmit zäherlenmesi",
+        "symptom":"Iýmitden zäherlenmek hapalanan iýmit ýa-da içgi iýeniňizde ýüze çykýar, ýürek bulanma, gusmak, garyn agyrylary we içgeçme ýaly alamatlara sebäp bolýar.",
+        "symptom_id":[3]
+    },
+    {
+        "id":7,
+        "disease":"Temporomandibular bilelikdäki näsazlyk (TMJ)",
+        "symptom":"TMJ bozulmasy, eňegiň bogunlaryna täsir edýän, köplenç eňegiň agyrmagy, ybadathanalaryň töweregindäki dartgynlyk we kellä basyş ýaly alamatlara sebäp bolýan ýagdaýdyr.",
+        "symptom_id":[4]
+    },
+    {
+        "id":8,
+        "disease":"Bokurdak keseli",
+        "symptom":"Strep bokurdagy, bokurdagyňyzy agyryp, dyrmaşyp bilýän bakterial ýokançlykdyr. Strep bokurdagy bokurdagyň agyrysynyň diňe az bölegini tutýar. Bejerilmedik ýagdaýynda, bokurdak böwregiň çişmegi ýa-da revmatiki gyzzyrma ýaly kynçylyklara sebäp bolup biler.",
+        "symptom_id":[5,7]
+    },
+    {
+        "id":9,
+        "disease":"Tonzillit",
+        "symptom":"Tonsillit - bokurdagyň arka tarapyndaky dokumanyň iki sany ýumurtga görnüşli dokumasy - iki tarapynda bir tonza. Tonzillitiň alamatlary we çişmegi, bokurdak agyry, ýuwutmakda kynçylyk we boýnuň iki tarapyndaky limfa düwünleri bar.",
+        "symptom_id":[5,7]
+    },
+    {
+        "id":10,
+        "disease":"Laringit",
+        "symptom":"Laryngit - bogazyň çişmegi (ses gutusy). Köplenç bir hepde töweregi bejergisiz gowulaşýar. Laryngitiň alamatlary birden başlap, iki-üç günüň dowamynda hasam erbetleşip biler.",
+        "symptom_id":[5,7]
+    },
+    {
+        "id":10,
+        "disease":"Bokurdak ragy",
+        "symptom":"Bokurdak ragy, bokurdagyňyzdaky öýjükler genetiki mutasiýa ýüze çykanda ýüze çykýar. Bu mutasiýa öýjükleriň gözegçiliksiz ösmegine we sagdyn öýjükler adatça ölenden soň ýaşamagyny dowam etdirýär. Toplaýan öýjükler bokurdagyňyzda çiş döredip biler. Bokurdagyň düwnük keseline sebäp bolýan mutasiýa näme sebäp bolýandygy belli däl.",
+        "symptom_id":[6,8]
+    },
+    {
+        "id":11,
+        "disease":"GERD",
+        "symptom":"Gastroesofagial reflyks keseli (GERD), aşgazanyň düzüminiň özofagusa geçýän umumy ýagdaýydyr. Refleksi ýygy-ýygydan ýa-da agyr alamatlara ýa-da şikeslere sebäp bolanda kesele öwrülýär. Refleksi gyzylödege, farinklere ýa-da dem alyş ýollaryna zeper ýetirip biler.",
+        "symptom_id":[6]
+    },
+    {
+        "id":12,
+        "disease":"Özofagit",
+        "symptom":"Özofagit özofagus mukozasynyň çişmegini ýa-da şikeslenmegini aňladýar. Iň ýaýran sebäplerden biri, eroziw özofagitiň döremegine sebäp bolup bilýän gastroezofagial refleksi. Beýleki etiologiýalara radiasiýa, ýokançlyklar, dermanlar sebäpli dörän ýerli şikesler, tabletka özofagit we eozinofil özofagit (EoE) degişlidir.",
+        "symptom_id":[6]
+    },
+    {
+        "id":13,
+        "disease":"Faringit",
+        "symptom":"Faringit - orofarinksiň gyjyndyrmalarynyň çişmegi. Köplenç bu bakteriýa ýa-da wirus ýokançlygy sebäpli ýüze çykýar. Faringitiň has az ýaýran sebäplerine allergiýa, trawma, rak, refleksi we käbir toksinler girýär.",
+        "symptom_id":[7]
+    },
+    {
+        "id":14,
+        "disease":"Ses aragatnaşygynyň düwün keseli",
+        "symptom":"Ses aragatnaşygynyň düwünleri, ses aragatnaşygynyň kistalary we ses aragatnaşygynyň polipleri, ses aragatnaşygyňyzdaky çagyryşlar ýaly kanser däl ösüşlerdir. Olar sesiňiziň gödek, dem almagyna ýa-da gykylygyna sebäp bolup biler. Sesleriňiziň kadaly titremeginiň öňüni alýanlygy sebäpli sesiňiz ýarylyp ýa-da kesilip bilner.",
+        "symptom_id":[8]
+    }      
+]

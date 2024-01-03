@@ -1,6 +1,7 @@
 import { redirect } from "next/dist/server/api-utils";
 import Link from "next/link";
 import { useState } from "react";
+// import { Select } from '@mantine/core';
 
 export async function getServerSideProps(context) {
   const { req, query } = context;
@@ -25,22 +26,28 @@ const Index = ({ data }) => {
   const [jynsRe, setJynsRe] = useState();
 
   const yaslar = [
-    { id: 1, title: "uly yasly" },
-    { id: 2, title: "kici yasly" },
+    { id: 1, title: "Çagalar üçin" },
+    { id: 2, title: "Ýetginjekler üçin" },
+    { id: 3, title: "Uly adamlar üçin" },
   ];
   const jyns = [
-    { id: 1, title: "gyz" },
-    { id: 2, title: "oglan" },
+    { id: 1, title: "Gyz" },
+    { id: 2, title: "Oglan" },
   ];
 
   return (
-    <div className="w-full h-full flex justify-center items-center">
-      <div className="shadow-lg p-4 w-[500px] flex flex-col justify-center gap-3 rounded-md">
-        <div className="text-center ">Saglykly Sargydym</div>
-        <div>
-          Ozunuze gawat gelyan zatlary saylap almagynyzy sizden hayys edyan
+    <div className="w-full min-h-screen flex justify-center items-center t-1/2">
+      <div className="shadow-xl p-4 w-[500px] flex flex-col justify-center gap-3 rounded-md mb-12 bg-white text-gray-800">
+        <div className="text-center text-3xl font-semibold">Saglyk Sargydym</div>
+        <div className="text-center text-lg">
+          Ozunuze gabat gelyan zatlary saylap almagynyzy sizden hayys edyan
         </div>
         <div className="grid grid-cols-3 gap-2">
+        {/* <Select
+          label="Your favorite library"
+          placeholder="Pick value"
+          data={yaslar.map((el)=>el.title)}
+        /> */}
           <select
             className="border-[1px] border-blue-400 rounded-sm text-blue-700 bg-blue-100 p-1 "
             onChange={(e) => setYasRe(e.target.value)}
@@ -49,7 +56,7 @@ const Index = ({ data }) => {
               Yasy
             </option>
             {yaslar.map((yas, index) => (
-              <option key={yas.id}>{yas.title}</option>
+              <option key={yas.id} >{yas.title}</option>
             ))}
           </select>
           <select
@@ -79,10 +86,10 @@ const Index = ({ data }) => {
         </div>
         {agyryRe && jynsRe && yasRe && (
           <Link
-            className="mt-4 rounded-md bg-blue-100 border-[1px] border-blue-600 text-blue-700 py-1 px-3 hover:bg-blue-600 hover:text-white text-center transition-all"
-            href={`/exercise?agyry=${agyryRe}&jyns=${jynsRe}&Yasy=${yasRe}`}
+            className="mt-4 rounded-md bg-white border-[1px] border-green-600 text-green-600 py-2 px-3 hover:bg-green-600 hover:text-white text-center transition-all text-xl"
+            href={`/exercise?ache=${agyryRe}&gender=${jynsRe}&age=${yasRe}`}
           >
-            Gozle --
+            Gozle
           </Link>
         )}
       </div>
