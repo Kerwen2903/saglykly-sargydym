@@ -50,7 +50,7 @@ const Exercise = ({ data }) => {
           <p className="text-left text-base text-red-600">Eger sizdede şeýle häsiýetler ýüze çykan bolsa Indiki düwmesine basyň!</p>
           <Link
           href={`/drugs?disease=${link}&disease_id=${data.filter((el)=> el.disease === link)[0]?.id}&age=${router.query.age}&gender=${router.query.gender}&symptom_id=${router.query.symptom_id}&symptom=${router.query.symptom}`}
-          className="mt-4 rounded-md bg-white border-[1px] border-green-600 text-green-600 py-2 px-3 hover:bg-green-600 hover:text-white text-center transition-all text-xl"
+          className="mt-4 rounded-md bg-white border-[1px] border-blue-600 text-blue-600 py-2 px-3 hover:bg-blue-600 hover:text-white text-center transition-all text-xl"
         >
           Indiki
         </Link>

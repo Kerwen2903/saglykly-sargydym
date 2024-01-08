@@ -38,6 +38,7 @@ const Index = ({ data }) => {
   return (
     <div className="w-full min-h-screen flex justify-center items-center t-1/2">
       <div className="shadow-xl p-4 w-[500px] flex flex-col justify-center gap-3 rounded-md mb-12 bg-white text-gray-800">
+        <div className="flex justify-center"><img className="w-24 h-24" src="/ibuprofen.jpg" alt="" /></div>
         <div className="text-center text-3xl font-semibold">Saglyk Sargydym</div>
         <div className="text-center text-lg">
           Ozunuze gabat gelyan zatlary saylap almagynyzy sizden hayys edyan
@@ -49,7 +50,7 @@ const Index = ({ data }) => {
           data={yaslar.map((el)=>el.title)}
         /> */}
           <select
-            className="border-[1px] border-blue-400 rounded-sm text-blue-700 bg-blue-100 p-1 "
+            className="border-[1px]  rounded-[15%] text-blue-700 bg-blue-100 p-1 "
             onChange={(e) => setYasRe(e.target.value)}
           >
             <option disabled selected value="">
@@ -60,7 +61,7 @@ const Index = ({ data }) => {
             ))}
           </select>
           <select
-            className="border-[1px] border-blue-400 rounded-sm text-blue-700 bg-blue-100 p-1 "
+            className="border-[1px]  rounded-[15%] text-blue-700 bg-blue-100 p-1 "
             onChange={(e) => setAgyryRe(e.target.value)}
           >
             <option disabled selected value="">
@@ -73,7 +74,7 @@ const Index = ({ data }) => {
           </select>
 
           <select
-            className="border-[1px] border-blue-400 rounded-sm text-blue-700 bg-blue-100 p-1 "
+            className="border-[1px]  rounded-[15%] text-blue-700 bg-blue-100 p-1 "
             onChange={(e) => setJynsRe(e.target.value)}
           >
             <option disabled selected value="">
@@ -86,7 +87,7 @@ const Index = ({ data }) => {
         </div>
         {agyryRe && jynsRe && yasRe && (
           <Link
-            className="mt-4 rounded-md bg-white border-[1px] border-green-600 text-green-600 py-2 px-3 hover:bg-green-600 hover:text-white text-center transition-all text-xl"
+            className="mt-4 rounded-md bg-white border-[1px] border-blue-600 text-blue-600 py-2 px-3 hover:bg-blue-600 hover:text-white text-center transition-all text-xl"
             href={`/exercise?ache=${agyryRe}&gender=${jynsRe}&age=${yasRe}`}
           >
             Gozle
